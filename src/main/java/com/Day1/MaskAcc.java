@@ -1,5 +1,5 @@
 package com.Day1;
-
+// hide all digits of account number except last 4 digits
 public final class MaskAcc {
     
     public MaskAcc(){
@@ -13,6 +13,7 @@ public final class MaskAcc {
     MaskAcc ma = new MaskAcc();
     String maskedAccno = ma.maskAvv("123456789987");
     System.out.println(maskedAccno);
+    System.out.println("successfully masked your account number");
     }
 
 }
